@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+<script type="text/javascript">
+	
+	function byIdFuntion(v) {
+		// body...
+		document.getElementById("id1").innerHTML = "Using getElementById method";
+	}
+
+	function byDocWriteFunction(){
+		document.write("Using document.write method");
+	}
+
+	function byWindowAlertFUnction(){
+		window.alert("Using alert method");
+	}
+</script>
+</head>
+
+<body>
+	<h1>This is my first JS Program</h1>
+	<p id="id1"> The original sentence</p>
+	<button type="button" onclick="byIdFuntion()">GetElementByID</button>
+
+	
+	<button type="button" onclick="byDocWriteFunction()">DocWrite</button>
+
+	<button type="button" onclick="byWindowAlertFUnction()">WindowsAlert</button>
+
+		
+
+</body>
+
+
+</html>
